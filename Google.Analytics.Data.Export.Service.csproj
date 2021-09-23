@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <UserSecretsId>dotnet-Google.Analytics.Data.Export.Service-E11125C4-1745-4994-B0F5-455926DDCF73</UserSecretsId>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Google.Analytics.Data.V1Beta" Version="1.0.0-beta05" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+        <PackageReference Include="prometheus-net.AspNetCore" Version="5.0.1" />
+    </ItemGroup>
+</Project>
